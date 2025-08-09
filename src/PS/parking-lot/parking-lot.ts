@@ -6,9 +6,6 @@ interface Helper {
   println(message: string): void;
 }
 
-interface parkingStrategy {
-    findSpots(data:SpotType[][]):Array<{row:number,col:number}>;
-}
 
 type SpotType = 2 | 4 | 0;
 
